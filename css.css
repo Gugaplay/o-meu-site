@@ -1,0 +1,123 @@
+﻿#menu-h {
+    background-color: rgb(32, 32, 32)
+
+  }
+  
+      #menu-h ul {
+    max-width: 100%;
+    width:101%;
+    list-style: none;
+    padding: 0;
+  
+  }
+  
+  #menu-h ul li {
+    display: inline;
+  }
+  
+  #menu-h ul li a {
+    color: rgb(255, 255, 255);
+    image-rendering: pixelated;
+    padding: 1%;
+    display: inline-block;
+    text-decoration: none;
+    
+  }
+
+  /*titulo/baner  */
+  #fundo h1 {
+position: absolute;
+left: 37%;
+font-size: 100px;
+text-shadow: 0px 0px 7px rgb(100, 100, 100);
+ color: rgb(0, 0, 0);
+ top:34%;
+}
+  #fundo img{
+position: absolute;
+left: 34%;
+zoom: 167%;
+top: 7%;
+  }
+  #fundo2{
+    position: absolute;
+    left: 38%;
+    zoom: 167%;
+    top:67%
+  }    
+  #fundosobre2{
+    position: absolute;
+    left: 26%;
+    zoom: 90%;
+    top:15%
+  }
+  #fundosobre3{
+    position: absolute;
+    left: 51%;
+    zoom: 90%;
+    top:15%
+  }
+  
+  #fundosobre h1 {
+    position: absolute;
+ left: 43%;
+ font-size: 100px;
+ text-shadow: 0px 0px 7px rgb(100, 100, 100);
+ color: rgb(0, 0, 0);
+ top:25%;
+  }
+  #fundosobre img{
+    position: absolute;
+    left: 34%;
+    zoom: 167%;
+  }
+
+
+  /*rodapé*/
+#container2 img {
+    zoom: 100.8%;
+    
+    }
+    
+    #container2 {
+      display: inline-block;
+      position: absolute;
+      top: 200%;
+      width: 100%;
+      
+      
+    }
+    
+  
+      
+    
+    
+    
+    
+    #container2 figcaption1 {
+      position: absolute;
+      top: 110px;
+      left: 47%;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 5px rgb(151, 151, 151);
+    }
+    
+    
+    
+    #container2 figcaption2 {
+      position: absolute;
+      top: 130px;
+      left: 33%;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 5px black;
+    }
+    
+    #container1 {
+      display: inline-block;
+      position: absolute;
+      left: 100%;
+      top: 200%;
+      width: 100%;
+    }
