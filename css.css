@@ -16,11 +16,11 @@
    background: rgba(0, 0, 0, 0.7);
    position: absolute;
    width: 100%;
-   top: 0;
+   top: 0%;
    left: 0;
    z-index: 999;
   }
-    
+   
     
   
   
@@ -42,14 +42,14 @@
   /*titulo/baner  */
   #fundo h1 {
  position: absolute;
-text-align: center;
+ text-align: center;
  width: 100%;
  font-size: 100px;
  text-shadow: 0px 0px 7px rgb(100, 100, 100);
  color: rgb(0, 0, 0);
  top:34%;
 }
-  #fundo img{
+ #fundo img{
  position: absolute;
  left: 34%;
  zoom: 167%;
@@ -99,13 +99,111 @@ text-align: center;
   }
 
   /*corpo*/
-  h2{
+   h2{
     position:absolute;
     text-align: center;
     width: 50%;
     top:120%;
      zoom: 170%;
     
+    
+  }
+  .materiaistitulos1{
+   position: absolute;
+    top: 145%;
+    width: 100%;
+    left: 16%;
+  }
+  
+  /*botoes*/
+  .materiaistitulos1{
+    position: absolute;
+    text-decoration: none;
+    padding: 0px;
+    width: 15%;
+    background-color: rgb(199, 97, 2);
+    border: 2px solid rgba(17, 17, 17);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1500ms;
+    bottom: unset;
+    color: white;
+  }
+  .materiaistitulos1:hover{
+    position: absolute;
+   text-decoration: none;
+   background-color: rgb(206, 160, 11);
+   color: #000;
+  }
+  .materiaistitulos1 img{
+    zoom: 70%;
+
+  }
+
+   
+   /*botoes2*/
+   .materiaistitulos2{
+     position: absolute;
+     text-decoration: none;
+     padding: 0px;
+     width: 15%;
+     background-color: rgb(199, 97, 2);
+     border: 2px solid rgba(17, 17, 17);
+     border-radius: 20px;
+     text-align: center;
+     cursor: pointer;
+     transition: 1500ms;
+     bottom: unset;
+     color: white;
+   }
+   .materiaistitulos2:hover{
+     position: absolute;
+    text-decoration: none;
+    background-color: rgb(206, 160, 11);
+    color: #000;
+   }
+   .materiaistitulos2 img{
+     zoom: 31.2%;
+ 
+   }
+   .materiaistitulos2{
+    position: absolute;
+     top: 145%;
+     
+     left: 43%;
+   }
+  /*botoes3*/
+  .materiaistitulos3{
+    position: absolute;
+    text-decoration: none;
+    padding: 10px;
+    width: 15%;
+    background-color: rgb(199, 97, 2);
+    border: 2px solid rgba(17, 17, 17);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1500ms;
+    bottom: unset;
+    color: white;
+    
+  }
+  .materiaistitulos3:hover{
+    position: absolute;
+   text-decoration: none;
+   background-color: rgb(206, 160, 11);
+   color: #000;
+  }
+  .materiaistitulos3 img{
+    zoom: 27.5%;
+
+  }
+  .materiaistitulos3{
+   position: absolute;
+    top: 145%;
+    
+   right: 16%;
   }
   /*laterais*/
   .rightsidebar{
@@ -136,7 +234,7 @@ text-align: center;
 /*cookies*/
 
 
-/*--------------------------------------------*/
+/*-------------------media------------------------*/
 @media only screen and (max-width: 768px) {
   nav#menu-h ul {
       flex-direction: column;
@@ -153,8 +251,34 @@ text-align: center;
   }
   #fundo2{
     top: 13%;  
-}
+  }
  footer{
   height: 20%;
  }
+}
+ @media only screen and (max-width: 1600px) {
+  #fundosobre2{
+    left:23%;
+  }
+  #fundosobre3{
+    left:52%;
+  }
+ }
+ @media only screen and (max-width: 1366px){
+  
+   #fundo2{
+    top: 65%;
+  }
+  h2{
+    top: 130%;
+  }
+  .materiaistitulos1{
+    top: 145%;
+  }
+  #fundosobre2{
+    left:21%;
+  }
+  #fundosobre3{
+    left:54%;
+  }
 }
