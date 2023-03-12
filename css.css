@@ -1,4 +1,10 @@
-﻿#menu-h {
+﻿:root {
+  --tamanho: 300vh
+}
+ body{
+  min-height: var(--tamanho);
+ } 
+#menu-h {
     background-color: rgb(32, 32, 32);
     
   }
@@ -12,13 +18,13 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding: 15px;
+   padding: 20px;
    background: rgba(0, 0, 0, 0.7);
    position: absolute;
-   width: 100%;
    top: 0%;
    left: 0;
    z-index: 999;
+   
   }
    
     
@@ -37,7 +43,51 @@
     text-decoration: none;
     
     
+    
+    
   }
+  #menu-m {
+    background-color: rgb(32, 32, 32);
+    
+  }
+  
+      #menu-m ul {
+        max-width: 100%;
+        width:100%;
+        list-style: none;
+        padding: 0;
+        list-style: none;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 15px;
+       background: rgba(0, 0, 0, 0.7);
+       position: absolute;
+       
+       left: 0;
+       z-index: 999;
+       top: 8.6%;
+       
+       
+  }
+  
+  
+  #menu-m ul li {
+    display: inline;
+  }
+  
+  #menu-m ul li a {
+    color: rgb(255, 255, 255);
+    image-rendering: pixelated;
+    padding: 1%;
+    display: inline-block;
+    text-decoration: none;
+    
+    
+    
+    
+  }
+
 
   /*titulo/baner  */
   #fundo h1 {
@@ -94,8 +144,13 @@
   }
   #fundosobre img{
     position: absolute;
-    left: 34%;
-    zoom: 167%;
+    width: 100%;
+  }
+  #imgsobre1{
+    position: absolute;
+    top:125%;
+    left:15%;
+    zoom: 20%;
   }
 
   /*corpo*/
@@ -107,6 +162,13 @@
      zoom: 170%;
     
     
+  }
+  .h3sdac{
+  position:absolute;
+    text-align: center;
+    width: 100%;
+    top:135%;
+     zoom: 170%;
   }
   .materiaistitulos1{
    position: absolute;
@@ -128,7 +190,8 @@
     cursor: pointer;
     transition: 1500ms;
     bottom: unset;
-    color: white;
+    color: black;
+  
   }
   .materiaistitulos1:hover{
     position: absolute;
@@ -155,7 +218,7 @@
      cursor: pointer;
      transition: 1500ms;
      bottom: unset;
-     color: white;
+     color: black;
    }
    .materiaistitulos2:hover{
      position: absolute;
@@ -186,7 +249,7 @@
     cursor: pointer;
     transition: 1500ms;
     bottom: unset;
-    color: white;
+    color: black;
     
   }
   .materiaistitulos3:hover{
@@ -205,6 +268,120 @@
     
    right: 16%;
   }
+  .materiaistitulos3P{
+    position: absolute;
+    text-decoration: none;
+    padding: 0px;
+    width: 15%;
+    background-color: rgb(199, 97, 2);
+    border: 2px solid rgba(17, 17, 17);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1500ms;
+    bottom: unset;
+    color: black;
+    
+  }
+  .materiaistitulos3P:hover{
+    position: absolute;
+   text-decoration: none;
+   background-color: rgb(206, 160, 11);
+   color: #000;
+  }
+  .materiaistitulos3P{
+   position: absolute;
+    top: 145%;
+    
+   right: 16%;
+  }
+  .materiaistitulos4{
+    position: absolute;
+    text-decoration: none;
+    padding: 0px;
+    width: 15%;
+    background-color: rgb(199, 97, 2);
+    border: 2px solid rgba(17, 17, 17);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1500ms;
+    bottom: unset;
+    color: black;
+  }
+  .materiaistitulos4:hover{
+    position: absolute;
+   text-decoration: none;
+   background-color: rgb(206, 160, 11);
+   color: #000;
+  }
+  
+  .materiaistitulos4{
+   position: absolute;
+    top: 170%;
+    
+    left: 16%;
+  }
+  .materiaistitulos5{
+    position: absolute;
+    text-decoration: none;
+    padding: 0px;
+    width: 15%;
+    background-color: rgb(199, 97, 2);
+    border: 2px solid rgba(17, 17, 17);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1500ms;
+    bottom: unset;
+    color: black;
+  }
+  .materiaistitulos5:hover{
+    position: absolute;
+   text-decoration: none;
+   background-color: rgb(206, 160, 11);
+   color: #000;
+  }
+  .materiaistitulos5 img{
+    zoom: 31.2%;
+
+  }
+  .materiaistitulos5{
+   position: absolute;
+    top: 170%;
+    
+    left: 43%;
+  }
+  .materiaistitulos6{
+    position: absolute;
+    text-decoration: none;
+    padding: 0px;
+    width: 15%;
+    background-color: rgb(199, 97, 2);
+    border: 2px solid rgba(17, 17, 17);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1500ms;
+    bottom: unset;
+    color: black;
+  }
+  .materiaistitulos6:hover{
+    position: absolute;
+   text-decoration: none;
+   background-color: rgb(206, 160, 11);
+   color: #000;
+  }
+  .materiaistitulos6 img{
+    zoom: 31.2%;
+
+  }
+  .materiaistitulos6{
+   position: absolute;
+   top: 170%;
+    
+   right: 16%;;
+  }
   /*laterais*/
   .rightsidebar{
     position: absolute;
@@ -217,6 +394,7 @@
   
   
   
+  
 
 
   /*rodapé*/
@@ -226,11 +404,19 @@
     background-color: rgb(32, 32, 32);
     color: #FFF;
     width: 100%;
-    height: 10%;    
+    height: 30%;   
     text-align: center;
     line-height: 10vh;
-    top: 200%;
+    top: var(--tamanho);
+    
 }
+ 
+  
+  
+
+   
+   
+
 /*cookies*/
 
 
@@ -280,5 +466,8 @@
   }
   #fundosobre3{
     left:54%;
+  }
+  #menu-m ul{
+    top: 9.6%;
   }
 }
